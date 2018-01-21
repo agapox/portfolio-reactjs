@@ -1,0 +1,359 @@
+{
+  "company": {
+    "id": "CompanyID",
+    "name": "Company Name",
+    "logo": "http://via.placeholder.com/200x100",
+    "bussinesIndustry": [
+      "tag1",
+      "tag2",
+      "tag3"
+    ],
+    "contactInformation": {
+      "offices": [
+        {
+          "name": "HeadQuarters",
+          "country": "Country",
+          "state": "State",
+          "city": "City",
+          "address": "Address",
+          "phone": [
+            "888-555-1212",
+            "888-555-1213"
+          ],
+          "email": [
+            "email1@example.com",
+            "email2@example.com"
+          ]
+        },
+        {
+          "name": "Branch Office",
+          "country": "Country",
+          "state": "State",
+          "city": "City",
+          "address": "Address",
+          "phone": [
+            "888-555-1212",
+            "888-555-1213"
+          ],
+          "email": [
+            "email1@example.com",
+            "email2@example.com"
+          ]
+        }
+      ],
+      "socialNetworks": [
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/company/"
+        },
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/company/"
+        },
+        {
+          "name": "twitter",
+          "url": "https://www.twitter.com/company/"
+        },
+        {
+          "name": "behance",
+          "url": "https://www.behance.com/company/"
+        },
+        {
+          "name": "github",
+          "url": "https://www.github.com/company/"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/"
+        }
+      ]
+    },
+    "aboutUs": {
+      "overview": "Buen ejemplo https://www.mrwonderfulshop.es Contá qué hacés y por qué. Es fundamental que si un visitante expresó interés en conocer más acerca de tu marca éste pueda rápidamente saber a qué te dedicás. Sin embargo, al igual que en cualquier pieza de marketing, no se trata simplemente de detallar qué producís; también debés incluir qué hace a tus productos y servicios únicos, la filosofía y valores que distinguen a tu marca.",
+      "story": "Relatá tu historia. Sin dudas, mostrar que tenés experiencia en tu rubro es una excelente forma de generar confianza entre los clientes de tu ecommerce. Pero, experiencia, no significa simplemente mencionar la cantidad de años que llevás en el negocio. Tu historia es mucho más interesante cuando incluís aquellos hitos, eventos y acontecimientos que implicaron un punto de inflexión en la trayectoria de tu marca. Por ejemplo, podés incluir eventos como el lanzamiento de la marca, creación de nuevos productos o servicios, el hecho de haber alcanzado un determinado número de ventas o clientes en determinado tiempo, conferencias en las cuales participaste u organizaste, inversiones recibidas, alianzas estratégicas, expansiones regionales entre otros ejemplos más."
+    },
+    "team": {
+      "overview": "Presentá a tu equipo. Una buena técnica para que tu marca se vea más humana y real, es presentar al equipo que lleva adelante la empresa. No hace falta que presentes a cada uno de los empleados, pero es una buena práctica incluir al equipo fundador y/o a los directivos más importantes. Respecto a qué información incluir de cada uno, te recomendamos: una foto, nombre y una breve biografía personal. ¡Así lo hacen las chicas de la tienda online Primo Mihi!",
+      "members": [
+        {
+          "name": "Member1 Name",
+          "avatar": "https://robohash.org/retro",
+          "alias": "Member1 Alias",
+          "position": "Member1 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member1 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member1/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member1/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member1/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member1/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member1/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member1/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member1.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        },
+        {
+          "name": "Member2 Name",
+          "avatar": "https://robohash.org/retro",
+          "alias": "Member2 Alias",
+          "position": "Member2 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member2 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member2/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member2/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member2/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member2/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member2/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member2/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member2.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        }
+      ]
+    },
+    "clients": [
+      {
+        "name": "Client1",
+        "bussinesIndustry": [
+          "#tag",
+          "#tag",
+          "#tag"
+        ],
+        "overview": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "projects": [
+          {
+            "name": "Project1",
+            "tags": [
+              "#tag",
+              "#tag",
+              "#tag"
+            ],
+            "descrption": {
+              "main": "Project1 Description Main",
+              "breif": "Project1 breif",
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            },
+            "images": {
+              "cover": "http://via.placeholder.com/350x250",
+              "items": [
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550"
+              ]
+            },
+            "period": {
+              "from": "fecha inicio proyecto",
+              "to": "fecha fin proyecto"
+            }
+          },
+          {
+            "name": "Project2",
+            "tags": [
+              "#tag",
+              "#tag",
+              "#tag"
+            ],
+            "descrption": {
+              "main": "Project2 Description Main",
+              "breif": "Project2 breif",
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            },
+            "images": {
+              "cover": "http://via.placeholder.com/350x250",
+              "items": [
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550"
+              ]
+            },
+            "period": {
+              "from": "fecha inicio proyecto",
+              "to": "fecha fin proyecto"
+            }
+          }
+        ],
+        "socialNetworks": [
+          {
+            "instagram": "https://www.instagram.com/client1/"
+          },
+          {
+            "facebook": "https://www.facebook.com/client1/"
+          },
+          {
+            "twitter": "https://www.twitter.com/client1/"
+          },
+          {
+            "behance": "https://www.behance.com/client1/"
+          },
+          {
+            "github": "https://www.github.com/client1/"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/client1/"
+          },
+          {
+            "website": "https://www.client1.com/"
+          }
+        ]
+      },
+      {
+        "name": "Client2",
+        "bussinesIndustry": [
+          "#tag",
+          "#tag",
+          "#tag"
+        ],
+        "overview": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "projects": [
+          {
+            "name": "Project1",
+            "tags": [
+              "#tag",
+              "#tag",
+              "#tag"
+            ],
+            "descrption": {
+              "main": "Project1 Description Main",
+              "breif": "Project1 breif",
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            },
+            "images": {
+              "cover": "http://via.placeholder.com/350x250",
+              "items": [
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550"
+              ]
+            },
+            "period": {
+              "from": "fecha inicio proyecto",
+              "to": "fecha fin proyecto"
+            }
+          },
+          {
+            "name": "Project2",
+            "tags": [
+              "#tag",
+              "#tag",
+              "#tag"
+            ],
+            "descrption": {
+              "main": "Project2 Description Main",
+              "breif": "Project2 breif",
+              "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+            },
+            "images": {
+              "cover": "http://via.placeholder.com/350x250",
+              "items": [
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550",
+                "http://via.placeholder.com/800x550"
+              ]
+            },
+            "period": {
+              "from": "fecha inicio proyecto",
+              "to": "fecha fin proyecto"
+            }
+          }
+        ],
+        "socialNetworks": [
+          {
+            "instagram": "https://www.instagram.com/client2/"
+          },
+          {
+            "facebook": "https://www.facebook.com/client2/"
+          },
+          {
+            "twitter": "https://www.twitter.com/client2/"
+          },
+          {
+            "behance": "https://www.behance.com/client2/"
+          },
+          {
+            "github": "https://www.github.com/client2/"
+          },
+          {
+            "linkedin": "https://www.linkedin.com/client2/"
+          },
+          {
+            "website": "https://www.client2.com/"
+          }
+        ]
+      }
+    ]
+  }
+}
