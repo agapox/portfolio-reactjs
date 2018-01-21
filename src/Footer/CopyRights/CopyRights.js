@@ -5,9 +5,14 @@ class CopyRights extends Component {
     let companyName = this.props.companyName
     let currentYear = new Date()
     currentYear = currentYear.getFullYear()
-    
+    let customStyle = {
+      alignCopyRights: {
+        textAlign: 'center'
+      }
+    }
+
     return (
-      <div>
+      <div style={customStyle.alignCopyRights}>
         <p>Copyrights &copy; {currentYear} {companyName}</p>
       </div>
     );

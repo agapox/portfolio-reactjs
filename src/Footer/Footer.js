@@ -8,13 +8,14 @@ import OfficeLocations from './OfficeLocations/OfficeLocations'
 class Footer extends Component {
   render() {
     let company = this.props.footerInfo
-    company && console.log(company)
+    let mainMenu = this.props.mainMenu
+    company && console.log(company.contact)
     return (
       <div>
         <h1>Footer Component</h1>
-        <OfficeLocations/>
-        <SocialMedia />
-        <FooterMenu />
+        <OfficeLocations companyLocation={company.contact.offices}/>
+        <SocialMedia companySocialMedia={company.contact.socialNetworks}/>
+        <FooterMenu mainMenu={mainMenu} />
         <CopyRights companyName={company.name} />
       </div>
     );

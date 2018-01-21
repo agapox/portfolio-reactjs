@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import companyData from './companyData.json'
 import './App.css';
-//import Grid from 'material-ui/Grid';
 import Header from './Header/Header';
 import MainContainer from './MainContainer/MainContainer';
 import Footer from './Footer/Footer';
@@ -24,6 +23,12 @@ class App extends Component {
   }
   
   render() {
+    let mainMenu = [
+      'inicio',
+      'nosotros',
+      'portafolio',
+      'contacto'
+    ]
     let companyInfo = this.state.companyData.company
     companyInfo && console.log(companyInfo)
     let footerInfo = {
@@ -41,7 +46,7 @@ class App extends Component {
           <MainContainer companyInfo={companyInfo} />
         }
         {companyInfo &&
-          <Footer footerInfo={footerInfo} />
+          <Footer footerInfo={footerInfo} mainMenu={mainMenu}/>
         }
       </div>
     );

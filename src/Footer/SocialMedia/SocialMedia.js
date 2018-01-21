@@ -1,46 +1,32 @@
 import React, { Component } from 'react';
 import SocialMediaItem from './SocialMediaItem/SocialMediaItem'
 
-let fakeServerData = {
-  socialNetwork: {
-    items: [
-      'Instagram',
-      'Behance'
-    ]
-  }
-}
-
 class SocialMedia extends Component {
 
-  constructor() {
-    super();
-    this.state = {
-      serverData: {}
-    }
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({
-        serverData: fakeServerData
-      })
-
-    }, 2000);
-  }
-
   render() {
+    let socialMedia = this.props.companySocialMedia
+    // socialMedia && console.log(socialMedia)
+    let socialNetworksStyle = {
+      listNetworks: {
+        listStyle: 'none',
+        padding: 0,
+        textAlign: 'center'
+      }
+    }
+    // socialNetworksStyle && console.log(socialNetworksStyle.listNetworks)
     return (
-      <div>
-        {this.state.serverData.socialNetwork ? 
-        <div>
-          <h2>SocialMedia Component</h2>
-          <div>
-            {this.state.serverData.socialNetwork.items.map((item,index) => 
-              <SocialMediaItem key={index} socialNetworkName={item}/>
-            )}
-          </div>
-        </div>:'Loading...'
-        }
+      <div className="social-media-cont">
+        <ul style={socialNetworksStyle.listNetworks}>
+          {socialMedia.map((el, index) => {
+            // console.log(index)
+            // console.log(el.url)
+            if (el.url === '') {
+              return false
+            } else {
+              return <SocialMediaItem key={index} socialMedia={el} />
+            }
+          })}
+        </ul>
       </div>
     );
   }

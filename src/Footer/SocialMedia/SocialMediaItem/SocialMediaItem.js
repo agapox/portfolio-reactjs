@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
+//import FontIcon from 'material-ui/Icon';
+import './SocialMediaItem.css'
 
 class SocialMediaItem extends Component {
   
   render() {
-    let socialNetwork = this.props.socialNetworkName;
-    //console.log(socialNetwork)
+    let socialNetwork = this.props.socialMedia;
+    // socialNetwork && console.log(socialNetwork)
     return (
-      <div>
-        <p>{socialNetwork}</p>
-      </div>
+      <li className="social-media-item">
+        <a href={socialNetwork.url}>
+          <i className={'fa fa-' + socialNetwork.name + ' fa-2x'} aria-hidden="true"></i>
+        </a>
+      </li>
     );
   }
 }
