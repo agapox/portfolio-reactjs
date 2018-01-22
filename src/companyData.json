@@ -73,7 +73,7 @@
       "story": "Relatá tu historia. Sin dudas, mostrar que tenés experiencia en tu rubro es una excelente forma de generar confianza entre los clientes de tu ecommerce. Pero, experiencia, no significa simplemente mencionar la cantidad de años que llevás en el negocio. Tu historia es mucho más interesante cuando incluís aquellos hitos, eventos y acontecimientos que implicaron un punto de inflexión en la trayectoria de tu marca. Por ejemplo, podés incluir eventos como el lanzamiento de la marca, creación de nuevos productos o servicios, el hecho de haber alcanzado un determinado número de ventas o clientes en determinado tiempo, conferencias en las cuales participaste u organizaste, inversiones recibidas, alianzas estratégicas, expansiones regionales entre otros ejemplos más."
     },
     "team": {
-      "overview": "Presentá a tu equipo. Una buena técnica para que tu marca se vea más humana y real, es presentar al equipo que lleva adelante la empresa. No hace falta que presentes a cada uno de los empleados, pero es una buena práctica incluir al equipo fundador y/o a los directivos más importantes. Respecto a qué información incluir de cada uno, te recomendamos: una foto, nombre y una breve biografía personal. ¡Así lo hacen las chicas de la tienda online Primo Mihi!",
+      "overview": "Presentá a tu equipo. Una buena técnica para que tu marca se vea más humana y real, es presentar al equipo que lleva adelante la empresa. No hace falta que presentes a cada uno de los empleados, pero es una buena práctica incluir al equipo fundador y/o a los directivos más importantes. Respecto a qué información incluir de cada uno, te recomendamos: una foto, nombre y una breve biografía personal.",
       "members": [
         {
           "name": "Member1 Name",
@@ -131,7 +131,7 @@
         },
         {
           "name": "Member2 Name",
-          "avatar": "https://robohash.org/retro",
+          "avatar": "https://robohash.org/retro2",
           "alias": "Member2 Alias",
           "position": "Member2 Position",
           "skills": [
@@ -168,6 +168,222 @@
             {
               "name": "website",
               "url": "https://www.member2.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        },
+        {
+          "name": "Member3 Name",
+          "avatar": "https://robohash.org/retro3",
+          "alias": "Member3 Alias",
+          "position": "Member3 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member3 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member3/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member3/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member3/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member3/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member3/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member3/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member3.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        },
+        {
+          "name": "Member4 Name",
+          "avatar": "https://robohash.org/retroc4",
+          "alias": "Member4 Alias",
+          "position": "Member4 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member4 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member4/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member4/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member4/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member4/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member4/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member4/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member4.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        },
+        {
+          "name": "Member5 Name",
+          "avatar": "https://robohash.org/retrodg5",
+          "alias": "Member5 Alias",
+          "position": "Member5 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member5 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member5/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member5/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member5/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member5/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member5/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member5/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member5.com/"
+            }
+          ],
+          "workExperience": [
+            {
+              "position": "position1",
+              "description": "position1 description",
+              "company": {
+                "name": "Company Name",
+                "description": "Company Description"
+              },
+              "dateFrom": "xx/xx/xxxx",
+              "dateTo": "xx/xx/xxxx"
+            }
+          ]
+        },
+        {
+          "name": "Member6 Name",
+          "avatar": "https://robohash.org/retrodfhhr6",
+          "alias": "Member6 Alias",
+          "position": "Member6 Position",
+          "skills": [
+            "skill1",
+            "skill2",
+            "skill3"
+          ],
+          "aboutMe": "Member6 About Me lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+          "socialNetworks": [
+            {
+              "name": "instagram",
+              "url": "https://www.instagram.com/member6/"
+            },
+            {
+              "name": "facebook",
+              "url": "https://www.facebook.com/member6/"
+            },
+            {
+              "name": "twitter",
+              "url": "https://www.twitter.com/member6/"
+            },
+            {
+              "name": "behance",
+              "url": "https://www.behance.com/member6/"
+            },
+            {
+              "name": "github",
+              "url": "https://www.github.com/member6/"
+            },
+            {
+              "name": "linkedin",
+              "url": "https://www.linkedin.com/member6/"
+            },
+            {
+              "name": "website",
+              "url": "https://www.member6.com/"
             }
           ],
           "workExperience": [

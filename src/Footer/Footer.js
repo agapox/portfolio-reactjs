@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     let company = this.props.footerInfo
     let mainMenu = this.props.mainMenu
-    company && console.log(company.contact)
+    // company && console.log(company.contact)
     return (
       <div>
         <h1>Footer Component</h1>

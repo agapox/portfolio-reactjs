@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class OfficeLocation extends Component {
   render() {
     let office = this.props.office
-    office && console.log(office.email)
+    // office && console.log(office.email)
     let customStyle = {
       divStyle: {
         display: 'inline-block',
