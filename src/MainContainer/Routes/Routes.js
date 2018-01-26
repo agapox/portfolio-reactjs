@@ -32,3 +32,6 @@ class Routes extends Component {
 };
 
 export default Routes;
+
+// Leer sobre React.cloneElement()
+// Router es el elemento padre

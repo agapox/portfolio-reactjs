@@ -13,7 +13,9 @@ class MainMenu extends Component {
 
     return(
       <ul>
-        <li>Home</li>
+        <NavLink to="/">
+          Home
+        </NavLink>
         <li>About Us</li>
         <li>Portfolio</li>
         <li>Contact</li>
