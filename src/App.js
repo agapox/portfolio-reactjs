@@ -19,7 +19,7 @@ class App extends Component {
       this.setState({
         companyData: companyData
       })
-    }, 2000);
+    }, 500);
   }
   
   render() {

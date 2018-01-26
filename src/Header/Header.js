@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-// import Drawer from 'material-ui/Drawer';
-// import MenuItem from 'material-ui/Menu/MenuItem';
-// import Button from 'material-ui/Button';
-
 import './Header.css';
+import MainMenu from './MainMenu/MainMenu'
 
 class Header extends Component {
   
@@ -18,6 +15,9 @@ class Header extends Component {
         <div>
           <img src={company.logo} alt=""/>
           <h3>{company.name}</h3>
+          <div>
+            <MainMenu />
+          </div>
         </div>
       </div>
     );
