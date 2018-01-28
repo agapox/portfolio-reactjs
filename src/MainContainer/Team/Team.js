@@ -1,9 +1,23 @@
 import React, { Component } from 'react';
+import companyData from '../../companyData.json';
 import TeamMember from './TeamMember/TeamMember';
 
 class Team extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      companyData: ''
+    }
+  }
+  componentDidMount() {
+    this.setState({
+      companyData: companyData
+    })
+  }
+  
   render() {
-    let companyTeam = this.props.companyTeam
+    let companyTeam = companyData.company.team
     // companyTeam && console.log(companyTeam)
     let customStyle = {
       divTeamOverview: {

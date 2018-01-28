@@ -6,12 +6,12 @@ class Header extends Component {
   
   render() {
     let company = {
-      name: this.props.companyInfo.name,
-      logo: this.props.companyInfo.logo,
+      name: this.props.companyInfo.company.name,
+      logo: this.props.companyInfo.company.logo,
     }
     
     return (
-      <div>
+      <header>
         <div>
           <img src={company.logo} alt=""/>
           <h3>{company.name}</h3>
@@ -19,7 +19,7 @@ class Header extends Component {
             <MainMenu />
           </div>
         </div>
-      </div>
+      </header>
     );
   }
 }

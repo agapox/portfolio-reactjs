@@ -1,5 +1,7 @@
 .member-container {
   margin: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
 }
 
 .member-container div:hover {

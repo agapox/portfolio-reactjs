@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-// import Home from './Home/Home';
+import companyData from '../../companyData.json';
 
 class Home extends Component {
+
   render() {
     return (
-      <div>
+      <div style={{background: '#245565'}}>
         <h2>Home Component</h2>
-        <h1>Hola Home Component</h1>
+        <h1>
+      {
+        companyData ? companyData.company.name : "Loading ..."
+      }
+        </h1>
       </div>
     );
   }

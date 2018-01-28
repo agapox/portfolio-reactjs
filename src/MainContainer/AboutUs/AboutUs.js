@@ -1,12 +1,27 @@
 import React, { Component } from 'react';
+//import { BrowserRouter, Route } from 'react';
+import companyData from '../../companyData.json';
 // import Home from './Home/Home';
 // import AboutUs from './AboutUs/AboutUs';
 // import Portfolio from './Portfolio/Portfolio';
 
 class AboutUs extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      companyData: ''
+    }
+  }
+  componentDidMount() {
+    this.setState({
+      companyData: companyData
+    })
+  }
+
   render() {
-    let aboutCompany = this.props.companyInfo
-    aboutCompany && console.log(aboutCompany)
+    let aboutCompany = companyData.company
+    //aboutCompany && console.log(aboutCompany)
     let customStyle = {
       divStyle: {
         width: '90%',

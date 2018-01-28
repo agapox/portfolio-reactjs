@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
-import Routes from './Routes/Routes';
-//import Home from './Home/Home';
-//import AboutUs from './AboutUs/AboutUs';
-//import Portfolio from './Portfolio/Portfolio';
-//import Team from './Team/Team';
+import companyData from '../companyData.json';
+import Routes from '../Routes/Routes';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 class MainContainer extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      companyData: ''
+    }
+  }
+  componentDidMount() {
+    this.setState({
+      companyData: companyData
+    })
+  }
+
   render() {
     
-    let companyInfo = this.props.companyInfo
     return (
-      <Routes companyInfo={companyInfo}/>
+      <div>
+        <Header companyInfo={companyData} />
+        <div>
+          <Routes />
+        </div>
+        <Footer companyInfo={companyData} />
+      </div>
     );
   }
 }
 
 export default MainContainer;
 
-
-// <div>
-//   <h1>MainContainer Component</h1>
-//   <Home />
-//   <AboutUs companyInfo={companyInfo} />
-//   <Team companyTeam={companyInfo.team} />
-//   <Portfolio />
-// </div>
