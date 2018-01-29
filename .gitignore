@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 README.old.md
+
+# Behance API configuration
+/src/behance

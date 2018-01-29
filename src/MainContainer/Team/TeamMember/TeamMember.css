@@ -4,7 +4,7 @@
   border-radius: 3px;
 }
 
-.member-container div:hover {
+.member-container > div:hover {
   border: 1px solid #cccccc;
   border-radius: 3px;
   box-shadow: 6px 6px 9px 2px #717171;

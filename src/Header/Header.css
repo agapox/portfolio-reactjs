@@ -1,0 +1,11 @@
+header img {
+  display:inline-block;
+}
+
+header h3 {
+  display: inline-block;
+}
+
+header > div > div {
+  display: inline-block;
+}

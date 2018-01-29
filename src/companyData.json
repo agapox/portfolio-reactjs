@@ -464,25 +464,32 @@
         ],
         "socialNetworks": [
           {
-            "instagram": "https://www.instagram.com/client1/"
+            "name": "instagram",
+            "url": "https://www.instagram.com/client1/"
           },
           {
-            "facebook": "https://www.facebook.com/client1/"
+            "name": "facebook",
+            "url": "https://www.facebook.com/client1/"
           },
           {
-            "twitter": "https://www.twitter.com/client1/"
+            "name": "twitter",
+            "url": "https://www.twitter.com/client1/"
           },
           {
-            "behance": "https://www.behance.com/client1/"
+            "name": "behance",
+            "url": "https://www.behance.com/client1/"
           },
           {
-            "github": "https://www.github.com/client1/"
+            "name": "github",
+            "url": "https://www.github.com/client1/"
           },
           {
-            "linkedin": "https://www.linkedin.com/client1/"
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/client1/"
           },
           {
-            "website": "https://www.client1.com/"
+            "name": "website",
+            "url": "https://www.client1.com/"
           }
         ]
       },
@@ -548,25 +555,32 @@
         ],
         "socialNetworks": [
           {
-            "instagram": "https://www.instagram.com/client2/"
+            "name": "instagram",
+            "url": "https://www.instagram.com/client2/"
           },
           {
-            "facebook": "https://www.facebook.com/client2/"
+            "name": "facebook",
+            "url": "https://www.facebook.com/client2/"
           },
           {
-            "twitter": "https://www.twitter.com/client2/"
+            "name": "twitter",
+            "url": "https://www.twitter.com/client2/"
           },
           {
-            "behance": "https://www.behance.com/client2/"
+            "name": "behance",
+            "url": "https://www.behance.com/client2/"
           },
           {
-            "github": "https://www.github.com/client2/"
+            "name": "github",
+            "url": "https://www.github.com/client2/"
           },
           {
-            "linkedin": "https://www.linkedin.com/client2/"
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/client2/"
           },
           {
-            "website": "https://www.client2.com/"
+            "name": "website",
+            "url": "https://www.client2.com/"
           }
         ]
       }

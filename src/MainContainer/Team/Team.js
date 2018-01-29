@@ -42,8 +42,7 @@ class Team extends Component {
             {companyTeam.overview}
           </h3>
         </div>
-        <div style={customStyle.divTeamMember} className="team-overview">
-          <h2 style={customStyle.alignTextCenter}>Team Members</h2>
+        <div style={customStyle.divTeamMember} className="team-members-container">
           {
             companyTeam.members.map((member,index) => {
               return <TeamMember key={'member-'+index} memberInfo={member}/>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import SocialMedia from './SocialMedia/SocialMedia'
 //import FooterMenu from './FooterMenu/FooterMenu'
-import CopyRights from './CopyRights/CopyRights'
 import OfficeLocations from './OfficeLocations/OfficeLocations'
+import SocialNetworks from '../Tools/SocialNetworks/SocialNetworks';
+import CopyRights from './CopyRights/CopyRights'
 
 
 class Footer extends Component {
@@ -14,7 +14,7 @@ class Footer extends Component {
       <footer style={{background: '#28caff'}}>
         <h1>Footer Component</h1>
         <OfficeLocations companyLocation={company.contactInformation.offices}/>
-        <SocialMedia companySocialMedia={company.contactInformation.socialNetworks}/>
+        <SocialNetworks socialNetworks={company.contactInformation.socialNetworks} iconSize={'fa-2x'}/>
         <CopyRights companyName={company.name} />
       </footer>
     );

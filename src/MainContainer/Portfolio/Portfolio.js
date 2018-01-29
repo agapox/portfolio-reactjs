@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import companyData from '../../companyData.json';
-import Projects from './Projects/Projects'
+import Clients from './Clients/Clients'
+
+//<p>{companyIndustry.join(', ')}</p>
 
 class Portfolio extends Component {
 
@@ -18,14 +20,13 @@ class Portfolio extends Component {
 
   render() {
     let companyClients = companyData.company.clients
-    let companyIndustry = companyData.company.bussinesIndustry
+    //let companyIndustry = companyData.company.bussinesIndustry
     //companyClients && console.log(companyClients)
     //companyIndustry && console.log(companyIndustry)
     return (
       <div className={'portfolio-container'}>
         <h2>Portfolio Component</h2>
-        <p>{companyIndustry.join(', ')}</p>
-        <Projects projects={companyClients} />
+        <Clients clients={companyClients} />
       </div>
     );
   }

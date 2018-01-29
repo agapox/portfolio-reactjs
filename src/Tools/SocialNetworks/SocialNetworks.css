@@ -1,0 +1,11 @@
+footer .social-media-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+}
+
+.clients-container .social-media-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+}

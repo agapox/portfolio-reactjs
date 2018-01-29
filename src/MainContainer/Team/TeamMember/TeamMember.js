@@ -1,12 +1,27 @@
 import React, { Component } from 'react';
 import './TeamMember.css';
+import SocialNetworks from '../../../Tools/SocialNetworks/SocialNetworks';
+//import MemberItem from '../../../Behance/Users'
 // import Home from './Home/Home';
 // import AboutUs from './AboutUs/AboutUs';
 // import Portfolio from './Portfolio/Portfolio';
 
+let memberItem;
+
 class TeamMember extends Component {
 
+  constructor() {
+    super()
+    this.state = {
+      memberItem: ''
+    }
+  }
+  componentWillMount() {
+
+  }
+
   render() {
+    memberItem && console.log(memberItem)
     let memberInfo = this.props.memberInfo
     let customStyle = {
       divStyle: {
@@ -37,17 +52,7 @@ class TeamMember extends Component {
             {memberInfo.skills.join('#')}
           </p>
           <ul className="member-social-network">
-            {
-              memberInfo.socialNetworks.map((network, index) => {
-                return(
-                  <li className="member-social-item" key={'social-item'+index}>
-                    <a href={network.url} target="_blank">
-                      <i className={'fa fa-' + network.name + ' fa-lg'} aria-hidden="true"></i>
-                    </a>
-                  </li>
-                )
-              })
-            } 
+            <SocialNetworks socialNetworks={memberInfo.socialNetworks} iconSize=""/>
           </ul>
         </div>
       </div>
