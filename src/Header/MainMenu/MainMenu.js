@@ -21,6 +21,9 @@ class MainMenu extends Component {
           <li>
             <NavLink to="/team">Team</NavLink>
           </li>
+          <li>
+            <NavLink to="/portfolioitemsum">PortfolioItemSum</NavLink>
+          </li>
         </ul>
       </div>
     );

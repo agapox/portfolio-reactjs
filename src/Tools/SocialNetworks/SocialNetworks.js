@@ -4,7 +4,7 @@ import SocialNetworkItem from './SocialNetworkItem/SocialNetworkItem';
 
 class SocialNetworks extends Component {
   render() {
-    let socialNetworks = this.props.socialNetworks
+    const { socialNetworks } = this.props
     let socialNetworksStyle = {
       listNetworks: {
         listStyle: 'none',

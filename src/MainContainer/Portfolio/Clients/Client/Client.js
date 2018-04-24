@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SocialNetworks from '../../../../Tools/SocialNetworks/SocialNetworks';
-//import 'Projects.css';
 
 class Client extends Component {
 

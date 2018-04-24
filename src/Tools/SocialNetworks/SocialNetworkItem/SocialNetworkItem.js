@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 
 class SocialNetworkItem extends Component {
   render() {
-    let socialNetworkItem = this.props.socialNetworkItem;
+    const { socialNetworkItem } = this.props
     let iconSize = this.props.iconSize;
-    //console.log(socialNetworkItem)
+    //socialNetworkItem.service_name && 
+    //  console.log(socialNetworkItem.service_name.toLowerCase())
     return (
       <li className="social-media-item">
-        <a href={socialNetworkItem.url}>
+        <a href={socialNetworkItem.service_name && socialNetworkItem.url} target="_blank">
           {
             (
               socialNetworkItem.name === 'website' ? 
                 <i className={'fa fa-globe ' + iconSize} aria-hidden="true"></i>
-                : <i className={'fa fa-' + socialNetworkItem.name + ' ' + iconSize} aria-hidden="true"></i>
+                : socialNetworkItem.service_name && <i className={'fa fa-' + socialNetworkItem.service_name.toLowerCase() + ' ' + iconSize} aria-hidden="true"></i>
             )
 
           }

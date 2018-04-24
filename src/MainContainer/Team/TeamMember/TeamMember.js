@@ -6,8 +6,6 @@ import SocialNetworks from '../../../Tools/SocialNetworks/SocialNetworks';
 // import AboutUs from './AboutUs/AboutUs';
 // import Portfolio from './Portfolio/Portfolio';
 
-let memberItem;
-
 class TeamMember extends Component {
 
   constructor() {
@@ -21,11 +19,9 @@ class TeamMember extends Component {
   }
 
   render() {
-    memberItem && console.log(memberItem)
-    let memberInfo = this.props.memberInfo
+    const { avatar, name, alias, position, skills, socialMedia } = this.props
     let customStyle = {
       divStyle: {
-        width: '22%',
         display: 'inline-block',
         textAlign: 'center'
       },
@@ -38,21 +34,27 @@ class TeamMember extends Component {
       },
       textStyle: {
         margin: '5px'
-      }
+      },
+      name: {
+        margin: '5px', textAlign: 'center'
+      },
+      skills: {
+        margin: '5px', fontSize: '12px'
+      }, 
+      alias: {margin: '5px', fontSize: '12px'}
     }
     return (
       <div className="member-container" style={customStyle.divStyle}>
         <div style={customStyle.innerDivStyle}>
-          {memberInfo.avatar &&
-          <img style={customStyle.avatarMember} src={memberInfo.avatar} alt=""/>}
-          <h4 style={customStyle.textStyle}>{memberInfo.name}</h4>
-          <p style={customStyle.textStyle}>{memberInfo.alias}</p>
-          <p style={customStyle.textStyle}>{memberInfo.position}</p>
-          <p style={customStyle.textStyle}>
-            {memberInfo.skills.join('#')}
+          <img style={customStyle.avatarMember} src={avatar} alt=""/>
+          <h3 style={customStyle.name}>{name}</h3>
+          <p style={customStyle.textStyle}>{position}</p>
+          <p style={customStyle.alias}>@{alias}</p>
+          <p style={customStyle.skills}>
+            {skills.join(', ')}
           </p>
           <ul className="member-social-network">
-            <SocialNetworks socialNetworks={memberInfo.socialNetworks} iconSize=""/>
+            <SocialNetworks socialNetworks={socialMedia} iconSize="fa-lg"/>
           </ul>
         </div>
       </div>

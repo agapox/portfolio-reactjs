@@ -1,6 +1,6 @@
 .member-container {
   margin: 1rem;
-  border: 1px solid #cccccc;
+  border: 0px solid #cccccc;
   border-radius: 3px;
 }
 
@@ -9,6 +9,10 @@
   border-radius: 3px;
   box-shadow: 6px 6px 9px 2px #717171;
   background-color: #eeeeee;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  -moz-transition: box-shadow 0.2s ease-out;
+  -o-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .member-container img {
@@ -24,17 +28,24 @@
   border-radius: 3px;
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
+  -webkit-transition: filter 0.2s ease-out;
+  -moz-transition: filter 0.2s ease-out;
+  -o-transition: filter 0.2s ease-out;
+  transition: filter 0.2s ease-out;
   
   /*
   box-shadow: 4px 4px 10px 2px #717171;
   */
 }
 
-.member-container h4, .member-container p {
+.member-container h3, .member-container p {
   color: #1a1a1a;
   text-shadow: 1px 1px 2px #bbbbbb;
 }
 
+.member-container > div > p:nth-child(5) {
+  height: 2em;
+}
 
 .member-container ul {
   list-style: none;

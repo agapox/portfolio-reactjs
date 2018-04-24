@@ -4,6 +4,7 @@ import Home from '../MainContainer/Home/Home';
 import AboutUs from '../MainContainer/AboutUs/AboutUs';
 import Portfolio from '../MainContainer/Portfolio/Portfolio';
 import Team from '../MainContainer/Team/Team';
+import PortfolioItemSum from '../Tools/Portfolio/PortfolioItemSum'
 
 class Routes extends Component {
     
@@ -15,6 +16,7 @@ class Routes extends Component {
         <Route path="/about" exact component={AboutUs} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/team" exact component={Team} />
+        <Route path="/portfolioitemsum" exact component={PortfolioItemSum} />
       </Switch>
     );
   }
